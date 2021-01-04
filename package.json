@@ -1,0 +1,32 @@
+{
+  "name": "strapi-plugin-stripe",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "Stripe",
+    "icon": "dollar-sign",
+    "description": "An integration to include stripe information in the data store of Strapi"
+  },
+  "dependencies": {
+    "@buffetjs/core": "^3.3.3",
+    "stripe": "^8.129.0",
+    "styled-components": "^5.2.1"
+  },
+  "author": {
+    "name": "Gideon Ibemere, Jr",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "Gideon Ibemere, Jr",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
